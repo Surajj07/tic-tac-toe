@@ -1,7 +1,7 @@
 console.log("welcome to tic tac toe1");
-let music=new Audio()
-let audioturn=new Audio()
-let isgameover=new Audio()
+let music=new Audio("music.mp3")
+let audioturn=new Audio("ting.mp3")
+let isgameover=new Audio("gameover.mp3")
 let turn="X";
 let gameover=false;
 //function to change the turn
